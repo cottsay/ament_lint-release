@@ -108,9 +108,8 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
-      :{release_inc}
-      --skip-keys clang-tidy pydocstyle python3-flake8 python3-mypy python3-pep8
-      python3-pytest-mock
+      :{release_inc} --skip-keys clang-tidy pydocstyle python3-flake8 python3-mypy
+      python3-pep8 python3-pytest-mock
     devel_branch: eloquent
     last_version: 0.8.1
     name: ament_lint
