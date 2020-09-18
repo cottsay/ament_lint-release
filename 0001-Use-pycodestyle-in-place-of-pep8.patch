@@ -1,4 +1,4 @@
-From 9f7d3ce5dec847b367cce3da74b74725db32f15a Mon Sep 17 00:00:00 2001
+From afcba1151fbe7f2b9e54a91293046c91ac1df13f Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Tue, 15 Sep 2020 15:42:26 -0700
 Subject: [PATCH] Use pycodestyle in place of pep8
